@@ -13,7 +13,14 @@ To solve the cartpole problem using Q-learning and the gym environment, we used 
 
 # Tasks
 
-1. Develepment of an RL agent
+1. Development of an RL agent
+
+We utilized Q-learning to develop the agent. 
+
+Reason for choosing Q-learning:
+  - Q-learning is one of the most popular and effective reinforcement learning algorithm
+  - Q-learning is a model-free algorithm, meaning it does not require knowledge of the underlying dynamics of the system being controlled.
+  - Q-learning is a value-based method, meaning it learns a value function that maps states to action values. In the cartpole problem, the agent needs to learn which actions are best to take in different states, and  a value-based approach like Q-learning can effectively learn the optimal action values for each state.
 
 2. Demonstrate the effectiveness of the RL agent
 
